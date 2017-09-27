@@ -45,7 +45,7 @@ class Die //models one single dice cube
       rect(myX, myY, 20, 20, 5);
       strokeWeight(3);
       point(myX+10, myY+10);
-      System.out.println(1);
+     
     };
     if ((myNum==2)) {
       fill(10, 255, 50);
@@ -53,7 +53,7 @@ class Die //models one single dice cube
       strokeWeight(3);
       point(myX+5, myY+10);
       point(myX+15, myY+10);
-      System.out.println(2);
+     
     };
     if ((myNum==3)) {
       strokeWeight(3);
@@ -62,7 +62,7 @@ class Die //models one single dice cube
       point(myX+5, myY+10);
       point(myX+10, myY+10);
       point(myX+15, myY+10);
-      System.out.println(3);
+      
     };
     if ((myNum==4)) {
       strokeWeight(3);
@@ -72,7 +72,7 @@ class Die //models one single dice cube
       point(myX+15, myY+5);
       point(myX+5, myY+15);
       point(myX+15, myY+15);
-      System.out.println(4);
+      
     };
     if ((myNum==5)) {
       strokeWeight(3);
@@ -83,7 +83,7 @@ class Die //models one single dice cube
       point(myX+5, myY+15);
       point(myX+15, myY+15);
       point(myX+10, myY+10);
-      System.out.println(5);
+      
     };
     if ((myNum==6)) {
       fill(30, 150, 150);
@@ -95,7 +95,7 @@ class Die //models one single dice cube
       point(myX+15, myY+15);
       point(myX+5, myY+10);
       point(myX+15, myY+10);
-      System.out.println(6);
+      
     };
   }
 }
